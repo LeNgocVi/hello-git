@@ -1,0 +1,69 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+    
+}
+.chitiet{
+    width: 100%;
+    margin: auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.anh{
+	float: left;
+	margin-top: 20px;
+	height: 300px;
+	width: 30%
+}
+.infor {
+    float: left;
+    font-size: 25px;
+    height: 700px;
+    width: 70%;
+}
+.infor p{
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+.infor button{
+    padding: 10px;
+}
+h3{
+    padding-top: 10px;
+}
+.giohang{
+	font-size: 17px;
+	color: white;
+	background-color: #64D64E;
+	margin-top: 5px;
+	height: 30px;
+	width: 150px;
+}
+
+.number{
+	height: 25px;
+	width: 30px;
+}
+
+
+.bar button{
+	height: 35px;
+
+
+}
+
+.bar button:hover{
+	border-bottom-color: #4DC44D;
+	color: #4DC44D;
+}
+
+p {
+	font-size: 17px;
+}
